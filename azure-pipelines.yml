@@ -6,9 +6,9 @@
 trigger:
 - master
 
-pool:
-  vmImage: 'windows-latest'
-
+#pool:
+#  vmImage: 'windows-latest'
+pool: my-personal-computer
 variables:
   solution: '**/*.sln'
   buildPlatform: 'Any CPU'
